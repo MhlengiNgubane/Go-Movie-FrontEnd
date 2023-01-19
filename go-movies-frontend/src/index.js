@@ -33,8 +33,8 @@ const router = createBrowserRouter([
         element: <Genres />,
       },
       {
-        path: "/genres:id",
-        element: <OneGenre />,
+        path: "/genres/:id",
+        element: <OneGenre />
       },
       {
         path: "/admin/movie/0",
